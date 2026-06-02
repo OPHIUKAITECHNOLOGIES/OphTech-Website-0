@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Services | Product Design, Web &amp; Mobile Development, APIs — OphTech</title>
+<meta name="description" content="OphTech provides product strategy, UI/UX design, web &amp; mobile app development, API engineering, and deployment support for modern organizations." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366F1'/%3E%3Cstop offset='1' stop-color='%2306B6D4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath d='M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z' fill='%23fff'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<div class="nav-wrapper" id="navWrapper">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
+      <span class="brand-name"><strong>OphTech</strong><span class="nm">Ophiukai</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="insights.html">Insights</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary btn-sm">Book a Discovery Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-head">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
+      <span class="brand-name"><strong>OphTech</strong></span>
+    </a>
+    <button class="mobile-menu-close" id="mobileClose" aria-label="Close menu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="contact.html" class="btn btn-primary btn-lg">Book a Discovery Call</a>
+</div>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container page-hero-inner reveal">
+    <span class="eyebrow"><span class="dot"></span> Services</span>
+    <h1>End-to-end product development for teams that want to <span style="background:var(--gradient-text);-webkit-background-clip:text;background-clip:text;color:transparent;">ship fast—and ship right.</span></h1>
+    <p>OphTech supports organizations at every stage: idea validation, design, engineering, integration, deployment, and growth. Whether you need a complete product team or expert delivery support, we help you build with confidence.</p>
+  </div>
+</section>
+
+<!-- PROCESS / INTRO PILLS -->
+<section class="section" style="padding-top:64px;">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow"><span class="dot"></span> How we work</span>
+      <h2>From idea to production—in clear stages.</h2>
+    </div>
+    <div class="feature-grid reveal-stagger">
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+        <h3>Discover</h3>
+        <p>Research, scoping, and validation before any code is written.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg></div>
+        <h3>Design</h3>
+        <p>UX flows, UI systems, and clickable prototypes you'll love.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
+        <h3>Build</h3>
+        <p>Clean, testable engineering with weekly demos and clear progress.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <h3>Scale</h3>
+        <p>Deployment, monitoring, and growth support beyond launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DETAILED SERVICE BLOCKS -->
+<section class="section" style="background:var(--canvas);">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow"><span class="dot"></span> Service catalogue</span>
+      <h2>What we deliver, end to end.</h2>
+      <p>Six service areas, working as a single product team when you need us.</p>
+    </div>
+
+    <div class="svc-grid reveal-stagger">
+
+      <article class="svc-block">
+        <div class="svc-num">01</div>
+        <div>
+          <span class="label">Service</span>
+          <h3>Product Strategy &amp; Discovery</h3>
+          <p style="font-size:0.9375rem;margin-bottom:0;">Sharpen your idea into a product plan everyone can align on.</p>
+        </div>
+        <div>
+          <span class="label">What we help with</span>
+          <ul>
+            <li>Product roadmap and feature prioritization</li>
+            <li>Market and competitor analysis</li>
+            <li>MVP definition and scope planning</li>
+            <li>User journeys and requirements documentation</li>
+          </ul>
+          <div class="outcome">Outcome — Clear product direction + reduced delivery risk.</div>
+        </div>
+      </article>
+
+      <article class="svc-block">
+        <div class="svc-num">02</div>
+        <div>
+          <span class="label">Service</span>
+          <h3>UI/UX Design &amp; Prototyping</h3>
+          <p style="font-size:0.9375rem;margin-bottom:0;">Interfaces that feel obvious once you use them.</p>
+        </div>
+        <div>
+          <span class="label">What we help with</span>
+          <ul>
+            <li>UI design systems</li>
+            <li>UX flows and wireframes</li>
+            <li>Interactive prototypes</li>
+            <li>Usability improvement</li>
+          </ul>
+          <div class="outcome">Outcome — Better user experience + higher adoption.</div>
+        </div>
+      </article>
+
+      <article class="svc-block">
+        <div class="svc-num">03</div>
+        <div>
+          <span class="label">Service</span>
+          <h3>Web Application Development</h3>
+          <p style="font-size:0.9375rem;margin-bottom:0;">Robust web platforms your users and team can rely on.</p>
+        </div>
+        <div>
+          <span class="label">What we help with</span>
+          <ul>
+            <li>SaaS platforms</li>
+            <li>Admin dashboards</li>
+            <li>Customer portals</li>
+            <li>Role-based access systems</li>
+          </ul>
+          <div class="outcome">Outcome — Secure and scalable web products.</div>
+        </div>
+      </article>
+
+      <article class="svc-block">
+        <div class="svc-num">04</div>
+        <div>
+          <span class="label">Service</span>
+          <h3>Mobile App Development</h3>
+          <p style="font-size:0.9375rem;margin-bottom:0;">Native-feel apps on Android &amp; iOS, built for real-world use.</p>
+        </div>
+        <div>
+          <span class="label">What we help with</span>
+          <ul>
+            <li>Android &amp; iOS solutions</li>
+            <li>Hybrid mobile apps</li>
+            <li>Notifications and messaging</li>
+            <li>Offline-first experiences</li>
+          </ul>
+          <div class="outcome">Outcome — Mobile products users love to keep.</div>
+        </div>
+      </article>
+
+      <article class="svc-block">
+        <div class="svc-num">05</div>
+        <div>
+          <span class="label">Service</span>
+          <h3>API Development &amp; Integrations</h3>
+          <p style="font-size:0.9375rem;margin-bottom:0;">Secure APIs that connect your stack and automate workflows.</p>
+        </div>
+        <div>
+          <span class="label">What we help with</span>
+          <ul>
+            <li>REST/GraphQL API development</li>
+            <li>Payment, SMS, email integrations</li>
+            <li>Identity systems and authentication</li>
+            <li>Third-party platform connections</li>
+          </ul>
+          <div class="outcome">Outcome — Connected systems + automated workflows.</div>
+        </div>
+      </article>
+
+      <article class="svc-block">
+        <div class="svc-num">06</div>
+        <div>
+          <span class="label">Service</span>
+          <h3>Deployment, Support &amp; Growth</h3>
+          <p style="font-size:0.9375rem;margin-bottom:0;">We don't disappear after launch—we keep your system healthy.</p>
+        </div>
+        <div>
+          <span class="label">What we help with</span>
+          <ul>
+            <li>Cloud deployment and CI/CD</li>
+            <li>Monitoring and reliability</li>
+            <li>Scaling and optimization</li>
+            <li>Maintenance and improvements</li>
+          </ul>
+          <div class="outcome">Outcome — Stable production systems with long-term value.</div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ENGAGEMENT MODELS -->
+<section class="section">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow"><span class="dot"></span> Engagement</span>
+      <h2>How we work with you.</h2>
+    </div>
+    <div class="feature-grid reveal-stagger">
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Project Sprint</h3>
+        <p>Fixed scope, fixed timeline—perfect for MVPs, redesigns, or platform launches.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <h3>Dedicated Team</h3>
+        <p>Embed senior engineers and designers into your roadmap on a monthly basis.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+        <h3>Retainer Support</h3>
+        <p>Ongoing monitoring, improvements, and feature delivery for live systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+  <div class="container">
+    <div class="cta-section reveal">
+      <span class="eyebrow" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#A5B4FC;"><span class="dot"></span> Let's get to work</span>
+      <h2>Not sure which service you need?</h2>
+      <p>Book a free discovery call and we'll help you figure out the smartest next step—without the sales pitch.</p>
+      <div class="ctas">
+        <a href="contact.html" class="btn btn-brand btn-lg">Book a Discovery Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a href="products.html" class="btn btn-light btn-lg">See Our Products</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="brand">
+          <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
+          <span class="brand-name"><strong>OphTech</strong></span>
+        </a>
+        <p style="margin-top:18px;">Ophiukai Technologies (OphTech) builds scalable software products and platforms for businesses and institutions across Africa.</p>
+        <p style="font-size:0.875rem;color:rgba(255,255,255,0.4);">Suite 307, 9–11 Coker Street,<br/>Lagos, Nigeria</p>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <ul class="footer-links">
+          <li><a href="https://curiouskidzng.com" target="_blank" rel="noopener">CuriousKidzNG</a></li>
+          <li><a href="products.html">Agama Health</a></li>
+          <li><a href="products.html">Emergency Response</a></li>
+          <li><a href="products.html">PsyApp HR API</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@ophtech.io">hello@ophtech.io</a></li>
+          <li><a href="mailto:ophiutech@gmail.com">ophiutech@gmail.com</a></li>
+          <li><a href="tel:+2348059887668">+234 805 988 7668</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ophiukai Technologies. All rights reserved.</span>
+      <div class="socials">
+        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.8a8.4 8.4 0 01-2.4.7 4.2 4.2 0 001.8-2.3 8.4 8.4 0 01-2.6 1 4.1 4.1 0 00-7 3.7A11.6 11.6 0 013 4.7a4.1 4.1 0 001.3 5.5 4 4 0 01-1.9-.5v.1a4.1 4.1 0 003.3 4 4.2 4.2 0 01-1.9 0 4.1 4.1 0 003.8 2.8A8.2 8.2 0 012 18.2 11.6 11.6 0 008.3 20c7.5 0 11.6-6.2 11.6-11.6v-.5A8.2 8.2 0 0022 5.8z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM8.3 18.3H5.7V10h2.6v8.3zM7 8.8a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11.3 9.5h-2.6v-4c0-1-.4-1.7-1.3-1.7-.7 0-1.1.5-1.3 1-.1.2-.1.4-.1.7v4h-2.6V10h2.6v1.1c.3-.5 1-1.3 2.4-1.3 1.7 0 3 1.1 3 3.6v4.9z"/></svg></a>
+        <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 015 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

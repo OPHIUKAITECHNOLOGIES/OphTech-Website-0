@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ophiukai Technologies (OphTech) | Software Product Development in Lagos</title>
+<meta name="description" content="OphTech builds scalable software products, APIs, and digital platforms for businesses and institutions. Based in Lagos, Nigeria. Explore our products and services." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366F1'/%3E%3Cstop offset='1' stop-color='%2306B6D4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath d='M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z' fill='%23fff'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="nav-wrapper" id="navWrapper">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg>
+      </span>
+      <span class="brand-name"><strong>OphTech</strong><span class="nm">Ophiukai</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="insights.html">Insights</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary btn-sm">Book a Discovery Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-head">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
+      <span class="brand-name"><strong>OphTech</strong></span>
+    </a>
+    <button class="mobile-menu-close" id="mobileClose" aria-label="Close menu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="contact.html" class="btn btn-primary btn-lg">Book a Discovery Call</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="reveal">
+      <span class="eyebrow"><span class="dot"></span> Software · Product · Platforms</span>
+      <h1>Building software products that solve <span class="grad">real problems</span>—fast, scalable, and human-centric.</h1>
+      <p class="lead">Ophiukai Technologies (OphTech) is a young, focused technology company in Lagos building market-ready digital products, platforms, and APIs that help businesses and institutions deliver smarter services.</p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="btn btn-primary btn-lg">Book a Discovery Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a href="products.html" class="btn btn-ghost btn-lg">See Our Products</a>
+      </div>
+      <div class="hero-trust">
+        <span class="label">What we deliver</span>
+        <div class="pills">
+          <span class="pill"><span class="pdot"></span> Product Strategy</span>
+          <span class="pill"><span class="pdot"></span> UI/UX Design</span>
+          <span class="pill"><span class="pdot"></span> Web &amp; Mobile Apps</span>
+          <span class="pill"><span class="pdot"></span> API &amp; Cloud Engineering</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hero-card">
+        <div class="hero-card-head">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="url">ophtech.io / build</div>
+        </div>
+        <pre class="codeblock"><span class="c-com">// Define your product</span>
+<span class="c-kw">const</span> product <span class="c-pn">=</span> {
+  name<span class="c-pn">:</span> <span class="c-str">"Your Vision"</span>,
+  stage<span class="c-pn">:</span> <span class="c-str">"MVP"</span>,
+  team<span class="c-pn">:</span> <span class="c-str">"OphTech"</span>,
+};
+
+<span class="c-com">// Ship with confidence</span>
+<span class="c-kw">await</span> <span class="c-fn">ophtech</span>.<span class="c-fn">ship</span>({
+  strategy<span class="c-pn">:</span> <span class="c-str">"product-led"</span>,
+  design<span class="c-pn">:</span> <span class="c-str">"human-centric"</span>,
+  scale<span class="c-pn">:</span> <span class="c-str">"cloud-native"</span>,
+  result<span class="c-pn">:</span> <span class="c-prop">→</span> <span class="c-str">"users love it"</span>,
+});</pre>
+      </div>
+      <div class="float-stat s1">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <div>
+          <div class="lbl">Avg. delivery</div>
+          <div class="val">2× faster</div>
+        </div>
+      </div>
+      <div class="float-stat s2">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></div>
+        <div>
+          <div class="lbl">Uptime SLA</div>
+          <div class="val">99.9%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO WE ARE -->
+<section class="section">
+  <div class="container">
+    <div class="section-title left reveal">
+      <span class="eyebrow"><span class="dot"></span> Who we are</span>
+      <h2>A small team. <span style="background:var(--gradient-text);-webkit-background-clip:text;background-clip:text;color:transparent;">Big execution.</span></h2>
+    </div>
+    <div class="contact-grid reveal">
+      <div>
+        <p style="font-size:1.0625rem;">OphTech exists to help founders, SMEs, and institutions bring ideas to life through modern software engineering and product thinking. We build solutions that are easy to use, reliable in production, and designed to grow.</p>
+        <div class="values-grid" style="margin-top:24px;">
+          <div class="value-item">
+            <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+            <div>
+              <h4>MVPs &amp; product launches</h4>
+              <p>Move from idea to live product in weeks, not quarters.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 9h6v6H9z"/></svg></div>
+            <div>
+              <h4>Enterprise-grade platforms</h4>
+              <p>Scalable APIs, dashboards, and customer portals.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 011-18 0 9 9 0 0118 0z"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></div>
+            <div>
+              <h4>Digital transformation</h4>
+              <p>Modernise operations through smart automation.</p>
+            </div>
+          </div>
+        </div>
+        <a href="about.html" class="link-arrow" style="margin-top:28px;display:inline-flex;">Learn more about OphTech <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="stats-strip" style="grid-template-columns:1fr 1fr;">
+        <div class="stat-cell"><div class="val">20+</div><div class="lbl">Projects shipped</div></div>
+        <div class="stat-cell"><div class="val">12</div><div class="lbl">Industries served</div></div>
+        <div class="stat-cell"><div class="val">4</div><div class="lbl">Products in pipeline</div></div>
+        <div class="stat-cell"><div class="val">100%</div><div class="lbl">Production-ready code</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" style="background:var(--canvas);">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow"><span class="dot"></span> What we do</span>
+      <h2>End-to-end product engineering.</h2>
+      <p>From idea validation to production deployment—OphTech helps you ship the right thing, the right way.</p>
+    </div>
+
+    <div class="feature-grid reveal-stagger">
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v6M12 22v-6M4.93 4.93l4.24 4.24M14.83 14.83l4.24 4.24M2 12h6M22 12h-6M4.93 19.07l4.24-4.24M14.83 9.17l4.24-4.24"/></svg></div>
+        <h3>Product Strategy &amp; MVP Planning</h3>
+        <p>We help you validate ideas, define scope, and build the right MVP—without wasting time or budget.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3z"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h3>UI/UX Design &amp; Prototyping</h3>
+        <p>We design modern, intuitive interfaces that users enjoy—and businesses can scale.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div>
+        <h3>Web &amp; Mobile App Development</h3>
+        <p>From customer-facing apps to internal systems, we build robust solutions with clean architecture.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></div>
+        <h3>API Development &amp; Integrations</h3>
+        <p>We create secure APIs and connect platforms—payments, identity, messaging, analytics, HR tools.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg></div>
+        <h3>Deployment, Monitoring &amp; Support</h3>
+        <p>We ship production-ready systems with performance monitoring, backups, and scaling in mind.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg></div>
+        <h3>Cloud &amp; DevOps Engineering</h3>
+        <p>CI/CD, infrastructure automation, and reliability pipelines engineered for fast-moving teams.</p>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="services.html" class="btn btn-primary">Explore Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCT -->
+<section class="section">
+  <div class="container">
+    <div class="product-featured reveal">
+      <div>
+        <span class="tag"><span class="dot"></span> Pioneer Product · Live</span>
+        <h2>CuriousKidzNG</h2>
+        <p>An engaging learning platform designed to support children's curiosity, early learning, and digital growth. OphTech's first major product currently being pushed into the market.</p>
+        <div class="value">💡 Helping kids learn smarter through interactive and safe digital experiences.</div>
+        <ul>
+          <li>Fun learning experiences for kids</li>
+          <li>Engaging quizzes and activities</li>
+          <li>Parent-friendly learning support</li>
+        </ul>
+        <a href="https://curiouskidzng.com" target="_blank" rel="noopener" class="btn btn-brand">Visit CuriousKidzNG <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg></a>
+      </div>
+      <div class="product-visual">
+        <div class="pv-tile t1">
+          <div class="pv-emoji">📚</div>
+          <div>
+            <div class="pv-lbl">Today</div>
+            <div class="pv-val">Learn ABCs</div>
+          </div>
+        </div>
+        <div class="pv-tile t2">
+          <div class="pv-emoji">🧠</div>
+          <div>
+            <div class="pv-lbl">Quiz</div>
+            <div class="pv-val">Brain Quest</div>
+          </div>
+        </div>
+        <div class="pv-tile t3">
+          <div class="pv-emoji">🎯</div>
+          <div>
+            <div class="pv-lbl">Goal</div>
+            <div class="pv-val">Daily Streak</div>
+          </div>
+        </div>
+        <div class="pv-tile t4">
+          <div class="pv-emoji">⭐</div>
+          <div>
+            <div class="pv-lbl">Reward</div>
+            <div class="pv-val">Earn Badges</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUTURE PIPELINE -->
+<section class="section" style="background:var(--canvas);">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow"><span class="dot"></span> In development</span>
+      <h2>What's next at OphTech</h2>
+      <p>Concept-stage products that solve high-impact challenges across Africa.</p>
+    </div>
+
+    <div class="pipeline-grid reveal-stagger">
+      <div class="pipeline-card pl-green">
+        <div class="icon-bg" style="background:linear-gradient(135deg,rgba(16,185,129,0.15),rgba(6,182,212,0.15));color:#10B981;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <span class="pl-tag"><span class="dot"></span> Healthcare</span>
+        <h3>Agama Health Systems</h3>
+        <p>A future-ready healthcare platform concept focused on improving care delivery through digitized workflows, patient management, and scalable health data systems.</p>
+      </div>
+      <div class="pipeline-card pl-red">
+        <div class="icon-bg" style="background:linear-gradient(135deg,rgba(239,68,68,0.15),rgba(245,158,11,0.15));color:#EF4444;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 22h20L12 2z"/><path d="M12 9v4M12 17h.01"/></svg>
+        </div>
+        <span class="pl-tag"><span class="dot"></span> Public Safety</span>
+        <h3>Africa Emergency Response Systems</h3>
+        <p>A coordinated emergency response platform concept to support incident reporting, dispatch coordination, and real-time response visibility across African cities and communities.</p>
+      </div>
+      <div class="pipeline-card pl-blue">
+        <div class="icon-bg" style="background:linear-gradient(135deg,rgba(59,130,246,0.15),rgba(99,102,241,0.15));color:#3B82F6;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <span class="pl-tag"><span class="dot"></span> Workforce / HR</span>
+        <h3>PsyApp HR API Solutions</h3>
+        <p>A modular HR and workforce evaluation API concept designed to help companies integrate HR tools, performance insights, and structured workforce evaluation into their systems.</p>
+      </div>
+    </div>
+
+    <p style="text-align:center;margin-top:32px;" class="reveal">Want early access or partnership? <a href="contact.html" class="link-arrow">Contact us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="section">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow"><span class="dot"></span> Why OphTech</span>
+      <h2>Why clients choose OphTech</h2>
+      <p>We blend product thinking with engineering discipline to ship software that actually works in the real world.</p>
+    </div>
+
+    <div class="feature-grid reveal-stagger">
+      <div class="why-card">
+        <span class="num">01</span>
+        <h3>Business-first engineering</h3>
+        <p>We build what matters—solutions that drive adoption, growth, and efficiency.</p>
+      </div>
+      <div class="why-card">
+        <span class="num">02</span>
+        <h3>Speed with structure</h3>
+        <p>We move fast, but we don't break fundamentals. Clean code. Clean delivery.</p>
+      </div>
+      <div class="why-card">
+        <span class="num">03</span>
+        <h3>Scalable by design</h3>
+        <p>We build systems that can evolve—whether you're serving 100 users or 1 million.</p>
+      </div>
+      <div class="why-card">
+        <span class="num">04</span>
+        <h3>Partnership mindset</h3>
+        <p>We work like your product team—not just an outsourced vendor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+  <div class="container">
+    <div class="cta-section reveal">
+      <span class="eyebrow" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#A5B4FC;"><span class="dot"></span> Ready to ship?</span>
+      <h2>Let's build something <span style="background:linear-gradient(135deg,#A5B4FC,#67E8F9);-webkit-background-clip:text;background-clip:text;color:transparent;">impactful.</span></h2>
+      <p>Whether you're launching a new product, improving operations, or building a platform, OphTech is ready to help you move from idea to execution.</p>
+      <div class="ctas">
+        <a href="contact.html" class="btn btn-brand btn-lg">Book a Discovery Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a href="contact.html" class="btn btn-light btn-lg">Send a Message</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="brand">
+          <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
+          <span class="brand-name"><strong>OphTech</strong></span>
+        </a>
+        <p style="margin-top:18px;">Ophiukai Technologies (OphTech) builds scalable software products and platforms for businesses and institutions across Africa.</p>
+        <p style="font-size:0.875rem;color:rgba(255,255,255,0.4);">Suite 307, 9–11 Coker Street,<br/>Lagos, Nigeria</p>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <ul class="footer-links">
+          <li><a href="https://curiouskidzng.com" target="_blank" rel="noopener">CuriousKidzNG</a></li>
+          <li><a href="products.html">Agama Health</a></li>
+          <li><a href="products.html">Emergency Response</a></li>
+          <li><a href="products.html">PsyApp HR API</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@ophtech.io">hello@ophtech.io</a></li>
+          <li><a href="mailto:ophiutech@gmail.com">ophiutech@gmail.com</a></li>
+          <li><a href="tel:+2348059887668">+234 805 988 7668</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ophiukai Technologies. All rights reserved.</span>
+      <div class="socials">
+        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.8a8.4 8.4 0 01-2.4.7 4.2 4.2 0 001.8-2.3 8.4 8.4 0 01-2.6 1 4.1 4.1 0 00-7 3.7A11.6 11.6 0 013 4.7a4.1 4.1 0 001.3 5.5 4 4 0 01-1.9-.5v.1a4.1 4.1 0 003.3 4 4.2 4.2 0 01-1.9 0 4.1 4.1 0 003.8 2.8A8.2 8.2 0 012 18.2 11.6 11.6 0 008.3 20c7.5 0 11.6-6.2 11.6-11.6v-.5A8.2 8.2 0 0022 5.8z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM8.3 18.3H5.7V10h2.6v8.3zM7 8.8a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11.3 9.5h-2.6v-4c0-1-.4-1.7-1.3-1.7-.7 0-1.1.5-1.3 1-.1.2-.1.4-.1.7v4h-2.6V10h2.6v1.1c.3-.5 1-1.3 2.4-1.3 1.7 0 3 1.1 3 3.6v4.9z"/></svg></a>
+        <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 015 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
