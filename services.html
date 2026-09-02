@@ -7,18 +7,14 @@
 <meta name="description" content="OphTech provides product strategy, UI/UX design, web &amp; mobile app development, API engineering, and deployment support for modern organizations." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366F1'/%3E%3Cstop offset='1' stop-color='%2306B6D4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath d='M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z' fill='%23fff'/%3E%3C/svg%3E" />
 </head>
 <body>
 
 <div class="nav-wrapper" id="navWrapper">
   <div class="container nav">
-    <a href="index.html" class="brand">
-      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
-      <span class="brand-name"><strong>OphTech</strong><span class="nm">Ophiukai</span></span>
-    </a>
+    <a href="index.html" class="brand"><span class="brand-text"><strong>OphTech</strong><span class="sub">Ophiukai Technologies</span></span></a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -37,9 +33,7 @@
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-head">
     <a href="index.html" class="brand">
-      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
-      <span class="brand-name"><strong>OphTech</strong></span>
-    </a>
+      <span class="brand-text"><strong>OphTech</strong><span class="sub" style="font-size:0.55rem">Ophiukai</span></span></a>
     <button class="mobile-menu-close" id="mobileClose" aria-label="Close menu">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
     </button>
@@ -59,8 +53,11 @@
 <section class="page-hero">
   <div class="container page-hero-inner reveal">
     <span class="eyebrow"><span class="dot"></span> Services</span>
-    <h1>End-to-end product development for teams that want to <span style="background:var(--gradient-text);-webkit-background-clip:text;background-clip:text;color:transparent;">ship fast—and ship right.</span></h1>
+    <h1>End-to-end product development for teams that want to <span class="text-gradient">ship fast — and ship right.</span></h1>
     <p>OphTech supports organizations at every stage: idea validation, design, engineering, integration, deployment, and growth. Whether you need a complete product team or expert delivery support, we help you build with confidence.</p>
+    <div class="page-hero-media">
+      <img src="assets/img/african/african-startup-team.jpg" alt="Product development dashboard — OphTech services" loading="eager" />
+    </div>
   </div>
 </section>
 
@@ -69,35 +66,31 @@
   <div class="container">
     <div class="section-title reveal">
       <span class="eyebrow"><span class="dot"></span> How we work</span>
-      <h2>From idea to production—in clear stages.</h2>
+      <h2>From idea to production — in clear stages.</h2>
     </div>
     <div class="feature-grid reveal-stagger">
-      <div class="feature-card">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
-        <h3>Discover</h3>
-        <p>Research, scoping, and validation before any code is written.</p>
+      <div class="feature-card has-media">
+        <div class="fc-media"><img src="assets/img/african/african-black-coworkers.jpg" alt="Discover — research and scoping" loading="lazy" /></div>
+        <div class="fc-body"><h3>Discover</h3><p>Research, scoping, and validation before any code is written.</p></div>
       </div>
-      <div class="feature-card">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg></div>
-        <h3>Design</h3>
-        <p>UX flows, UI systems, and clickable prototypes you'll love.</p>
+      <div class="feature-card has-media">
+        <div class="fc-media"><img src="assets/img/african/african-woman-afro-laptop.jpg" alt="Design — UX flows and prototypes" loading="lazy" /></div>
+        <div class="fc-body"><h3>Design</h3><p>UX flows, UI systems, and clickable prototypes you'll love.</p></div>
       </div>
-      <div class="feature-card">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
-        <h3>Build</h3>
-        <p>Clean, testable engineering with weekly demos and clear progress.</p>
+      <div class="feature-card has-media">
+        <div class="fc-media"><img src="assets/img/african/african-developer-team.jpg" alt="Build — clean engineering" loading="lazy" /></div>
+        <div class="fc-body"><h3>Build</h3><p>Clean, testable engineering with weekly demos and clear progress.</p></div>
       </div>
-      <div class="feature-card">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-        <h3>Scale</h3>
-        <p>Deployment, monitoring, and growth support beyond launch.</p>
+      <div class="feature-card has-media">
+        <div class="fc-media"><img src="assets/img/african/african-woman-man-office.jpg" alt="Scale — deployment and monitoring" loading="lazy" /></div>
+        <div class="fc-body"><h3>Scale</h3><p>Deployment, monitoring, and growth support beyond launch.</p></div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- DETAILED SERVICE BLOCKS -->
-<section class="section" style="background:var(--canvas);">
+<section class="section" style="background:var(--cream);">
   <div class="container">
     <div class="section-title reveal">
       <span class="eyebrow"><span class="dot"></span> Service catalogue</span>
@@ -110,9 +103,10 @@
       <article class="svc-block">
         <div class="svc-num">01</div>
         <div>
+          <div class="svc-thumb"><img src="assets/img/african/african-black-coworkers.jpg" alt="Product strategy" loading="lazy" /></div>
           <span class="label">Service</span>
           <h3>Product Strategy &amp; Discovery</h3>
-          <p style="font-size:0.9375rem;margin-bottom:0;">Sharpen your idea into a product plan everyone can align on.</p>
+          <p style="font-size:0.94rem;margin-bottom:0;">Sharpen your idea into a product plan everyone can align on.</p>
         </div>
         <div>
           <span class="label">What we help with</span>
@@ -129,9 +123,10 @@
       <article class="svc-block">
         <div class="svc-num">02</div>
         <div>
+          <div class="svc-thumb"><img src="assets/img/african/african-woman-afro-laptop.jpg" alt="UI/UX Design" loading="lazy" /></div>
           <span class="label">Service</span>
           <h3>UI/UX Design &amp; Prototyping</h3>
-          <p style="font-size:0.9375rem;margin-bottom:0;">Interfaces that feel obvious once you use them.</p>
+          <p style="font-size:0.94rem;margin-bottom:0;">Interfaces that feel obvious once you use them.</p>
         </div>
         <div>
           <span class="label">What we help with</span>
@@ -148,9 +143,10 @@
       <article class="svc-block">
         <div class="svc-num">03</div>
         <div>
+          <div class="svc-thumb"><img src="assets/img/african/african-startup-team.jpg" alt="Web application" loading="lazy" /></div>
           <span class="label">Service</span>
           <h3>Web Application Development</h3>
-          <p style="font-size:0.9375rem;margin-bottom:0;">Robust web platforms your users and team can rely on.</p>
+          <p style="font-size:0.94rem;margin-bottom:0;">Robust web platforms your users and team can rely on.</p>
         </div>
         <div>
           <span class="label">What we help with</span>
@@ -167,9 +163,10 @@
       <article class="svc-block">
         <div class="svc-num">04</div>
         <div>
+          <div class="svc-thumb"><img src="assets/img/african/african-men-laptops.jpg" alt="Mobile app" loading="lazy" /></div>
           <span class="label">Service</span>
           <h3>Mobile App Development</h3>
-          <p style="font-size:0.9375rem;margin-bottom:0;">Native-feel apps on Android &amp; iOS, built for real-world use.</p>
+          <p style="font-size:0.94rem;margin-bottom:0;">Native-feel apps on Android &amp; iOS, built for real-world use.</p>
         </div>
         <div>
           <span class="label">What we help with</span>
@@ -186,9 +183,10 @@
       <article class="svc-block">
         <div class="svc-num">05</div>
         <div>
+          <div class="svc-thumb"><img src="assets/img/african/african-developer-team.jpg" alt="API development" loading="lazy" /></div>
           <span class="label">Service</span>
           <h3>API Development &amp; Integrations</h3>
-          <p style="font-size:0.9375rem;margin-bottom:0;">Secure APIs that connect your stack and automate workflows.</p>
+          <p style="font-size:0.94rem;margin-bottom:0;">Secure APIs that connect your stack and automate workflows.</p>
         </div>
         <div>
           <span class="label">What we help with</span>
@@ -205,9 +203,10 @@
       <article class="svc-block">
         <div class="svc-num">06</div>
         <div>
+          <div class="svc-thumb"><img src="assets/img/african/african-woman-man-office.jpg" alt="Deployment and support" loading="lazy" /></div>
           <span class="label">Service</span>
           <h3>Deployment, Support &amp; Growth</h3>
-          <p style="font-size:0.9375rem;margin-bottom:0;">We don't disappear after launch—we keep your system healthy.</p>
+          <p style="font-size:0.94rem;margin-bottom:0;">We don't disappear after launch — we keep your system healthy.</p>
         </div>
         <div>
           <span class="label">What we help with</span>
@@ -236,7 +235,7 @@
       <div class="feature-card">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
         <h3>Project Sprint</h3>
-        <p>Fixed scope, fixed timeline—perfect for MVPs, redesigns, or platform launches.</p>
+        <p>Fixed scope, fixed timeline — perfect for MVPs, redesigns, or platform launches.</p>
       </div>
       <div class="feature-card">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
@@ -256,9 +255,9 @@
 <section class="section">
   <div class="container">
     <div class="cta-section reveal">
-      <span class="eyebrow" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#A5B4FC;"><span class="dot"></span> Let's get to work</span>
+      <span class="eyebrow" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.14);color:#A5B4FC;"><span class="dot"></span> Let's get to work</span>
       <h2>Not sure which service you need?</h2>
-      <p>Book a free discovery call and we'll help you figure out the smartest next step—without the sales pitch.</p>
+      <p>Book a free discovery call and we'll help you figure out the smartest next step — without the sales pitch.</p>
       <div class="ctas">
         <a href="contact.html" class="btn btn-brand btn-lg">Book a Discovery Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
         <a href="products.html" class="btn btn-light btn-lg">See Our Products</a>
@@ -271,10 +270,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-about">
-        <a href="index.html" class="brand">
-          <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M9 22V10h2.4l5.2 7.4V10H19v12h-2.4l-5.2-7.4V22z" fill="currentColor"/></svg></span>
-          <span class="brand-name"><strong>OphTech</strong></span>
-        </a>
+        <a href="index.html" class="brand"><span class="brand-text"><strong>OphTech</strong><span class="sub">Ophiukai Technologies</span></span></a>
         <p style="margin-top:18px;">Ophiukai Technologies (OphTech) builds scalable software products and platforms for businesses and institutions across Africa.</p>
         <p style="font-size:0.875rem;color:rgba(255,255,255,0.4);">Suite 307, 9–11 Coker Street,<br/>Lagos, Nigeria</p>
       </div>

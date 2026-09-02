@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="OphTech Ophiukai Technologies">
+  <g transform="translate(6,12)">
+    <path d="M 15 60 C 10 47 18 25 37 20 C 56 15 79 25 85 46 C 91 65 80 87 60 93 C 40 99 18 90 12 70 C 7 50 18 29 37 27 C 54 25 69 37 72 54 C 75 70 65 84 50 87 C 35 90 20 79 18 63 C 17 48 27 35 42 33 C 55 31 66 43 67 57 C 68 68 60 78 49 79 C 38 79 28 69 30 58 C 31 48 41 40 51 42 C 59 43 64 53 62 61 C 60 69 53 73 46 71 C 39 67 37 58 40 52 C 43 46 51 44 55 49 C 58 53 57 60 53 62" 
+          fill="none" stroke="#0A0F1A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="108" y="62" font-family="Space Grotesk, Inter, sans-serif" font-size="44" font-weight="700" letter-spacing="-0.03em" fill="#0A0F1A">OphTech</text>
+  <text x="108" y="84" font-family="JetBrains Mono, monospace" font-size="11" font-weight="500" letter-spacing="0.18em" fill="#94A3B8" style="text-transform:uppercase">OPHIUKAI TECHNOLOGIES</text>
+</svg>
