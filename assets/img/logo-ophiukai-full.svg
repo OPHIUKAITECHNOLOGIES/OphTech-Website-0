@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 150" role="img" aria-label="Ophiukai Technologies">
-  <g transform="translate(6,8) scale(1.05)">
-    <path d="M 10 58 Q 6 42 18 28 T 48 22 T 82 38 T 84 66 T 62 86 T 26 76 T 20 48 T 44 28 T 68 42 T 68 64 T 52 76 T 32 64 T 34 42 T 52 34 T 64 48 T 56 64 T 38 58 T 42 42" fill="none" stroke="#0A0F1A" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-  <text x="112" y="98" font-family="Space Grotesk, sans-serif" font-size="96" font-weight="700" letter-spacing="-0.04em" fill="#6B7280">PHIUKAI</text>
-  <text x="370" y="132" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="0.14em" fill="#94A3B8" style="text-transform:uppercase">Technologies</text>
-</svg>

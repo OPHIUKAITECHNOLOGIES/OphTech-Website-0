@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<div class="grain" aria-hidden="true"></div>
+
 <div class="nav-wrapper" id="navWrapper">
   <div class="container nav">
     <a href="index.html" class="brand"><span class="brand-text"><strong>OphTech</strong><span class="sub">Ophiukai Technologies</span></span></a>
@@ -98,9 +100,9 @@
           </div>
         </div>
 
-        <div style="margin-top:32px; border-radius:20px; overflow:hidden; border:1px solid rgba(8,11,24,0.06); box-shadow:var(--shadow-md);">
-          <img src="assets/img/lagos-skyline.jpg" alt="Lagos office area — OphTech location" loading="lazy" style="width:100%; height:180px; object-fit:cover;" />
-          <div style="padding:20px; background:linear-gradient(135deg,rgba(99,102,241,0.06),rgba(6,182,212,0.06));">
+        <div class="aside-card">
+          <img src="assets/img/lagos-skyline.jpg" alt="Lagos office area - OphTech location" loading="lazy" style="width:100%; height:180px; object-fit:cover;" />
+          <div class="aside-card-body">
             <strong style="display:block;color:var(--ink-900);font-family:var(--font-display);font-size:1.05rem;margin-bottom:6px;">Prefer to talk it through?</strong>
             <p style="font-size:0.9rem;margin:0 0 16px;">Book a free 30-min discovery call. No pitch, no obligation — just a clear conversation about what you're trying to build.</p>
             <a href="#" class="btn btn-brand btn-sm">Schedule on Calendly <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg></a>
@@ -171,29 +173,29 @@
 </section>
 
 <!-- FAQ -->
-<section class="section" style="background:var(--cream);">
+<section class="section section-shell">
   <div class="container">
     <div class="section-title reveal">
       <span class="eyebrow"><span class="dot"></span> Common questions</span>
       <h2>Quick answers.</h2>
     </div>
 
-    <div style="max-width:820px;margin:0 auto;display:grid;gap:14px;" class="reveal">
-      <details style="background:var(--paper);border:1px solid rgba(8,11,24,0.06);border-radius:16px;padding:20px 24px;cursor:pointer;box-shadow:var(--shadow-xs);">
-        <summary style="font-family:var(--font-display);font-weight:600;font-size:1.05rem;color:var(--ink-900);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">How quickly can we start? <span style="color:var(--brand-500);font-size:1.4rem;line-height:1;">+</span></summary>
-        <p style="margin-top:14px;margin-bottom:0;">Most engagements kick off within 1–2 weeks of the discovery call. For urgent MVPs we can sometimes start even sooner.</p>
+    <div class="faq reveal">
+      <details class="faq-item">
+        <summary>How quickly can we start?</summary>
+        <p>Most engagements kick off within 1–2 weeks of the discovery call. For urgent MVPs we can sometimes start even sooner.</p>
       </details>
-      <details style="background:var(--paper);border:1px solid rgba(8,11,24,0.06);border-radius:16px;padding:20px 24px;cursor:pointer;box-shadow:var(--shadow-xs);">
-        <summary style="font-family:var(--font-display);font-weight:600;font-size:1.05rem;color:var(--ink-900);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">Do you work with international clients? <span style="color:var(--brand-500);font-size:1.4rem;line-height:1;">+</span></summary>
-        <p style="margin-top:14px;margin-bottom:0;">Yes. We work with founders and teams across Africa, the UK, the US, and beyond. We're fluent in async, remote-first collaboration.</p>
+      <details class="faq-item">
+        <summary>Do you work with international clients?</summary>
+        <p>Yes. We work with founders and teams across Africa, the UK, the US, and beyond. We're fluent in async, remote-first collaboration.</p>
       </details>
-      <details style="background:var(--paper);border:1px solid rgba(8,11,24,0.06);border-radius:16px;padding:20px 24px;cursor:pointer;box-shadow:var(--shadow-xs);">
-        <summary style="font-family:var(--font-display);font-weight:600;font-size:1.05rem;color:var(--ink-900);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">What's your typical engagement size? <span style="color:var(--brand-500);font-size:1.4rem;line-height:1;">+</span></summary>
-        <p style="margin-top:14px;margin-bottom:0;">Engagements range from 2-week discovery sprints to multi-year product partnerships. Most clients start with a scoped MVP build.</p>
+      <details class="faq-item">
+        <summary>What's your typical engagement size?</summary>
+        <p>Engagements range from 2-week discovery sprints to multi-year product partnerships. Most clients start with a scoped MVP build.</p>
       </details>
-      <details style="background:var(--paper);border:1px solid rgba(8,11,24,0.06);border-radius:16px;padding:20px 24px;cursor:pointer;box-shadow:var(--shadow-xs);">
-        <summary style="font-family:var(--font-display);font-weight:600;font-size:1.05rem;color:var(--ink-900);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">Can you sign an NDA before we share details? <span style="color:var(--brand-500);font-size:1.4rem;line-height:1;">+</span></summary>
-        <p style="margin-top:14px;margin-bottom:0;">Absolutely. We can sign a mutual NDA before the discovery call so you can share sensitive context with full confidence.</p>
+      <details class="faq-item">
+        <summary>Can you sign an NDA before we share details?</summary>
+        <p>Absolutely. We can sign a mutual NDA before the discovery call so you can share sensitive context with full confidence.</p>
       </details>
     </div>
   </div>
